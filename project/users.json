@@ -1,0 +1,2 @@
+{"email":"joe@example.com","name":"joe","permissions":{"accounts":"read","policies":"write","users":"write"}}
+{"email":"naman@example.com","name":"naman","permissions":{"accounts":"read","policies":"write","users":"write"}}
