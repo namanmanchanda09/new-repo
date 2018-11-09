@@ -1,4 +1,16 @@
+
+module Destruct
+  def destroy
+    puts "Hello I will destroy"
+  end
+end
+
+
+
+
+
 class User
+  include Destruct
   attr_accessor :name
   def initialize(name)
     @name = name
@@ -12,14 +24,16 @@ class User
 
 end
 
-user = User.new("Naman")
-user2 = User.new("Vandan")
+# user = User.new("Naman")
+# user2 = User.new("Vandan")
+#
+#
+# puts user.name
+#
+# user.name=("John")
+# puts user.name
 
 
-puts user.name
-
-user.name=("John")
-puts user.name
-
-
+new_user = User.new("Ned")
+new_user.destroy
 
