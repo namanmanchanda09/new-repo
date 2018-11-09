@@ -1,4 +1,4 @@
-
+# Creating a module
 module Destruct
   def destroy
     puts "Hello I will destroy"
@@ -10,6 +10,7 @@ end
 
 
 class User
+  # Including a module in a class
   include Destruct
   attr_accessor :name
   def initialize(name)
