@@ -8,7 +8,7 @@ book = {
 }
 
 def area(book,name)
-  puts book[name]
+  book[name]
 end
 
 loop do
